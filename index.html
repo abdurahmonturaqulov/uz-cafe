@@ -14,18 +14,15 @@
     <h1>{{age}}</h1>
 </div>
         <button @click="showOrHideAge">
-           
-       
-       
         <span v-if="!showAge">Show Age</span>
         <span v-if="showAge">Hidden Age</span>
         </button>
+<div v-show="showAge">
+    hello
+</div>
+
     </div>
-
-
-
-
-
+    
    <script src="./main.js"></script> 
 </body>
 </html>
